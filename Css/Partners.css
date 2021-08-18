@@ -1,0 +1,146 @@
+body{
+ margin: 0;
+ padding: 0;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 700;
+ color: #fff;
+ font-size: 26px;
+ height: 100vh;
+ width: 100%;
+  background: radial-gradient(#262D40, #17191E);
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.Main{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+}
+
+.back{
+  width: 50px;
+  height: 180px;
+  background: #17191E;
+  box-shadow: 0px 0px 20px #2A324C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  opacity: 1;
+  color: #7D89B1;
+}
+
+.back:hover{
+  box-shadow: 0px 0px 100px #26335B;
+  width: 70px;
+}
+
+
+.logo{
+  width: 80px;
+  height: 52px;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 20px;
+  top: 0;
+  background: url(../img/Slider/Logo.png);
+  background-position: bottom;
+  background-size: cover;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.Empty{
+  width: 80px;
+  height: 52px;
+}
+
+.partnerBlock{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headline{
+  color: #293348;
+  transform: translateY(60px);
+  font-size: 50px;
+  text-align: center;
+}
+
+.video{
+  height: auto;
+  width: 900px;
+  height: 500px;
+  box-shadow: 0px 0px 80px #2A324C;
+  z-index: 1000;
+}
+
+.sendB{
+  background: none;
+  border: 2px solid #00D2FE;
+  color: #00D2FE;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  width: 220px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 1s ease;
+  opacity: 1;
+}
+
+.sendB:hover{
+  background: #00D2FE;
+  color: #17191E;
+}
+
+.info{
+  background: #17191E;
+  box-shadow: 0px 0px 80px #2A324C;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+  width:50%;
+  font-size: 14px;
+}
+
+
+.info p, a{
+  opacity: 0.2;
+  color: #7F8BAC;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  transition: all 1s ease;
+}
+
+.info a:hover{
+  opacity: 1;
+}
+
+.info p:hover{
+  opacity: 1;
+}
+
+.social{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 240px;
+  font-size: 13px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="Css/Preloder.css">
+    <link rel="stylesheet" href="Css/Contacts.css">
+    <link rel="stylesheet" href="Css/ContactsM.css">
+    <link rel="stylesheet" href="Css/Language.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="preload">
+      <img src="img/Progress.png" alt="" class="preloadAnimation">
+    </div>
+    <a href="Index.html" class="logo"></a>
+    <a class="back" href="Index.html"><h3 class="navB"><</h3></a>
+    <div class="Main">
+         <form class="ContactBlock" action="index.html" method="post">
+           <div class="fieldBlock">
+              <p class="title">ИМЯ</p>
+           <div class="InputBlock">
+              <input class="form" type="text" name="" value="" onchange="showInput(0)">
+              <hr class="line"></hr>
+           </div>
+           </div>
+           <div class="fieldBlock">
+              <p class="title">ТЕЛЕФОН</p>
+              <div class="InputBlock">
+                 <input class="form" type="text" name="" value="" onchange="showInput(1)">
+                 <hr class="line"></hr>
+              </div>
+           </div>
+           <div class="fieldBlock">
+              <p class="title">E-MAIL</p>
+              <div class="InputBlock">
+                 <input class="form" type="text" name="" value="" onchange="showInput(2)">
+                 <hr class="line"></hr>
+              </div>
+           </div>
+           <div class="fieldBlock Inquiry">
+              <p class="title textareaTitle">ЗАПРОС</p>
+              <div class="InputBlock">
+                 <textarea class="form" name="name" rows="8" cols="80" onchange="showInput(3)"></textarea>
+                 <hr class="line"></hr>
+              </div>
+           </div>
+           <div class="FinishBlock">
+             <button type="button" name="button" class="sendB">Отправить</button>
+             <div class="addBlock">
+               <nav>+</nav>
+               <p>ПРИКРЕПИТЬ ФАЙЛ</p>
+             </div>
+           </div>
+         </form>
+      </div>
+
+
+
+
+
+    <script type="text/javascript" src="Js/Contacts.js"></script>
+    <script type="text/javascript" src="Js/Main.js"></script>
+  </body>

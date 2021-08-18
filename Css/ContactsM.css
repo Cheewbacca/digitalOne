@@ -1,0 +1,105 @@
+
+@media screen and (max-width: 1440px){
+  .ContactBlock{
+    height: 450px;
+  }
+
+  .title{
+    padding-right: 40px;
+    font-size: 13px;
+  }
+
+  .form{
+    width: 400px;
+    font-size: 14px;
+  }
+
+  .InputBlock{
+    font-size: 14px;
+  }
+
+  .sendB{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 15px;
+    width: 200px;
+  }
+
+  .addBlock{
+    font-size: 15px;
+    width: 40%;
+  }
+
+  .addBlock nav{
+    font-size: 30px;
+  }
+
+
+
+}
+
+@media screen and (max-width: 768px){
+  body{
+   overflow-y: scroll;
+  }
+
+
+  .back{
+    width: 45%;
+    height: 60px;
+    font-size: 16px;
+    top: 0;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+
+  .navB{
+    transform: rotate(90deg);
+  }
+
+
+}
+
+@media screen and (max-width: 597px){
+
+  .logo{
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    margin-left: 14px;
+    margin-top: 14px;
+    top: 0;
+  }
+
+
+  .ContactBlock{
+    margin-top: 200px;
+    height: 550px;
+  }
+
+    .title{
+      padding-right: 25px;
+      font-size: 12px;
+    }
+
+  .form {
+    width: 200px;
+    font-size: 13px;
+}
+
+
+  .FinishBlock{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    height: 120px;
+    width: 100%;
+  }
+
+  .addBlock{
+    width: 70%;
+  }
+
+
+
+}

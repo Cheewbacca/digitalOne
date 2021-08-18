@@ -1,0 +1,97 @@
+
+@media screen and (max-width: 1000px){
+
+  .ProjectTitle{
+    font-size: 46px;
+    width: 100%;
+  }
+
+  .ProjectText p{
+    font-size: 14px;
+  }
+
+  .ProjectimgMain{
+    height: 75%;
+    width: 100%;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 768px){
+
+  .logo{
+  display: none;
+  }
+
+  .Main{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+
+  .Projectimg{
+    height:120%;
+    width: 100%;
+    top: 0;
+    transform: none;
+    position: static;
+  }
+
+  .ProjectimgMain{
+    height: 50vh;
+    width: 120%;
+    border-radius: 0px;
+  }
+
+  .ProjectText {
+    padding-top: 20px;
+    padding-bottom: 120px;
+    width: 80%;
+    float: right;
+    text-align:justify;
+}
+
+.figureimg{
+  height: 40vh;
+  width: 100%;
+  border-radius: 20px;
+}
+
+  .linkProgect{
+    transform: translateY(-90px);
+  }
+
+  .back{
+    width: 65%;
+    height: 60px;
+    top: 0;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+
+  .backT{
+    transform: rotate(90deg);
+  }
+}
+
+
+@media screen and (max-width: 425px){
+
+  .ProjectText h2{
+    font-size: 24px;
+  }
+
+  .Projectimg{
+    height: 120%;
+  }
+
+
+  .ProjectimgMain{
+      height: 100vh;
+      width: 100%;
+      border-radius: 0px;
+    }
+}

@@ -1,0 +1,30 @@
+
+@media screen and (min-width: 1315px){
+ .gif{
+   height: 120%;
+   width: auto;
+ }
+}
+
+@media screen and (max-width: 768px){
+
+  .back{
+    width: 45%;
+    height: 60px;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+}
+
+@media screen and (max-width: 597px){
+
+  .logo{
+    width: 60px;
+    height: 40px;
+    margin-left: 14px;
+    margin-top: 14px;
+  }
+}

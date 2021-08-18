@@ -1,0 +1,246 @@
+body{
+ margin: 0;
+ padding: 0;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 700;
+ color: #fff;
+ height: 100vh;
+ width: 100%;
+ background: radial-gradient(#2A324C, #17191E);
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+figure {
+  margin: 0;
+}
+
+ul{
+  padding: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+::-webkit-scrollbar-track:vertical {
+background-color:#17191E;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+-webkit-border-radius: 10px;
+background-color:#00D2FE;
+}
+
+::-webkit-scrollbar{
+width: 4px;
+height: 4px;
+}
+
+.Main{
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.back{
+  width: 50px;
+  height: 180px;
+  background: #17191E;
+  box-shadow: 0px 0px 20px #2A324C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  position: fixed;
+  left: 0;
+  z-index: 200;
+  transform: translateY(-50%);
+  top: 50%;
+  color: #7D89B1;
+  text-decoration: none;
+}
+
+.back:hover{
+  box-shadow: 0px 0px 100px #26335B;
+  width: 70px;
+}
+
+.logo{
+  width: 80px;
+  height: 52px;
+  position: fixed;
+  margin-left: 20px;
+  margin-top: 20px;
+  top: 0;
+  z-index: 200;
+  background: url(../img/Slider/Logo.png);
+  background-position: bottom;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.ProgectimgTitle{
+background: #30384e;
+padding: 10px;
+margin-right: 7px;
+width: auto;
+height: auto;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+margin-top: 20px;
+text-align: center;
+}
+
+.blur{
+  background:linear-gradient(rgba(32, 35, 44, 0), rgba(32, 35, 44, 1));
+  position: fixed;
+  z-index: 1000;
+  bottom: 0;
+  height: 40%;
+  width: 100%;
+  pointer-events: none;
+}
+
+.Projectimg{
+  height: 60%;
+  width: 40%;
+  top: 50%;
+  transform: translateY(-50%);
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ProjectimgMain{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85%;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  filter:grayscale(0.7);
+}
+
+.ProjectimgMain img{
+  height: 100%;
+  width: auto;
+}
+
+.names{
+  display: flex;
+  justify-content:flex-start;
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 50px;
+  margin-bottom:  30px;
+}
+
+.ProjectimgMain:hover{
+  filter:grayscale(0);
+}
+
+figure{
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  width: 100%;
+  border-radius: 10px;
+  transition: all 1s ease;
+}
+
+figure img{
+  text-align: center;
+  height: 100%;
+  filter:grayscale(0.7);
+  width: auto;
+  transition: all 1s ease;
+  border-radius: 10px;
+}
+
+figure:hover  img{
+  filter:grayscale(0);
+}
+
+
+.ProjectTitle{
+  font-size: 66px;
+  width: 100%;
+  color: #00D2FE;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.linkProgect{
+  color: #00D2FE;
+  padding-bottom: 5px;
+  font-size: 14px;
+  text-decoration: none;
+  border-bottom: 2px solid #00D2FE;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.Projectimg:hover .linkProgect{
+padding-bottom: 20px;
+}
+
+.ProjectText{
+  padding-top: 140px;
+  padding-bottom: 220px;
+  width: 40%;
+  float: right;
+  color: #D5DBEB;
+}
+
+.MainlinkContact{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkContact{
+  color: #00D2FE;
+  background: none;
+  padding-bottom: 10px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 2px solid #00D2FE;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.MainlinkContact:hover .linkContact{
+  padding-bottom: 30px;
+}
+
+.ProjectText h2{
+  margin-top: 50px;
+  font-size: 28px;
+}
+
+.ProjectText p{
+  color: #A6B0CB;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
